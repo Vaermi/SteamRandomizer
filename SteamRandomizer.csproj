@@ -14,7 +14,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="src\Model\" />
     <Folder Include="src\Config\" />
     <Folder Include="src\Resources\" />
     <Folder Include="src\ViewModel\" />
