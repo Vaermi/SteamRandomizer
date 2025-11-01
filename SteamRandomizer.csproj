@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!--<OutputType>WinExe</OutputType>-->
+	<OutputType>Exe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MongoDB.Driver" Version="3.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="src\Model\" />
+    <Folder Include="src\Config\" />
+    <Folder Include="src\Resources\" />
+    <Folder Include="src\ViewModel\" />
+    <Folder Include="src\View\" />
+  </ItemGroup>
+
+</Project>

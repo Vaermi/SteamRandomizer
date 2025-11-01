@@ -1,0 +1,38 @@
+# Build- und Debug-Ordner
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.pdb
+*.log
+
+# Visual Studio-spezifisch
+.vs/
+*.dbmdl
+*.jfm
+*.psess
+*.vspx
+*.vspscc
+*.vssscc
+
+# NuGet-Pakete
+*.nupkg
+packages/
+project.lock.json
+
+# Firebase & MongoDB (falls Konfigurationsdateien lokal liegen)
+firebase.json
+*.env
+*.key
+*.pem
+*.secret
+*.config.js
+
+# Sonstiges
+*.DS_Store
+Thumbs.db
+*.swp
+*.bak
+*.tmp
+config.dat
