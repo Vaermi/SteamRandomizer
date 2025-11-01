@@ -1,9 +1,5 @@
 ﻿using MongoDB.Bson;
 using MongoDB.Driver;
-using SteamRandomizer.src.Services;
-using SteamRandomizer.src.View;
-using System.Configuration;
-using System.Data;
 using System.IO;
 using System.Windows;
 
